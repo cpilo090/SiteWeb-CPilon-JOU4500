@@ -2,11 +2,12 @@ html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
     font-family: 'Roboto', sans-serif;
-    color: #666666;
+    color: #333333;
+    background-image: linear-gradient(#ff5050, #ff4d4d);
 }
 
 body {
-    background-color: whitesmoke;
+    background-image: linear-gradient(#001a4d, #ff5050);
 }
 
 .top-bar {
@@ -17,25 +18,27 @@ body {
 }
 
 .logo {
-   font-size: 30px;
+   font-size: 40px;
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: white;
    font-weight: bold;
+   font-family: 'Rock Salt', cursive;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: #000033;
    position: absolute;
    top: 85px;
    z-index: 2;
    width: 100%;
+   font-family: 'Rock Salt', cursive;
 }
 
 .top-menu ul {
     list-style-type: none;
-    font-size: 20px; 
+    font-size: 15px; 
     float: right;
     margin-right: 20px;
 }
@@ -51,11 +54,11 @@ body {
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: #ff4d4d;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: #ff5050;
 }
 
 .page-content {
@@ -74,12 +77,37 @@ body {
 
 .main-section h1, .main-section h2 {
     color: black;
+    font-weight: normal;
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px
 }
 
 .main-section figure, .main-section img {
     display: block;
     margin: auto;
     width: 800px;
+}
+    
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid grey;
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    font-family: 'verdana';
+    font-size: 12px
+}
+    
+th {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-family: 'Rock Salt', cursive;
+    background-color: #000033;
+    font-size: 15px
 }
 
 .footer {
@@ -89,7 +117,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:#000033;
 }
 
 .footer-content {
